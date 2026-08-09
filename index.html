@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>典籍通 — 经典文献阅读</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <!-- 侧栏：书籍列表 -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>典籍通</h1>
+      <span class="subtitle">经典研读</span>
+    </div>
+    <nav class="book-list" id="bookList"></nav>
+  </aside>
+
+  <!-- 主阅读区 -->
+  <main class="reader">
+    <header class="reader-bar">
+      <button class="btn-toggle" id="toggleBtn" title="切换目录">☰</button>
+      <div class="reader-title" id="readerTitle">选择一个典籍开始阅读</div>
+      <button class="btn-toggle" id="settingBtn" title="设置">⚙</button>
+    </header>
+
+    <div class="reader-content" id="readerContent">
+      <div class="welcome" id="welcomeScreen">
+        <div class="welcome-icon">📖</div>
+        <h2>典籍通</h2>
+        <p>经典文献阅读助手<br><small>左侧选择典籍，即可开始研读</small></p>
+      </div>
+      <article class="text-body" id="textContent" style="display:none;"></article>
+    </div>
+
+    <footer class="reader-nav" id="readerNav">
+      <button id="prevBtn" class="nav-btn">← 上一章</button>
+      <span id="navInfo">第 0 / 0 章</span>
+      <button id="nextBtn" class="nav-btn">下一章 →</button>
+    </footer>
+  </main>
+
+  <!-- 设置面板 -->
+  <div class="settings-panel" id="settingsPanel">
+    <div class="settings-card">
+      <h3>阅读设置</h3>
+      <div class="setting-row">
+        <label>字体大小</label>
+        <div class="font-size-controls">
+          <button class="size-btn" data-action="decrease">A-</button>
+          <span id="fontSizeLabel">17px</span>
+          <button class="size-btn" data-action="increase">A+</button>
+        </div>
+      </div>
+      <div class="setting-row">
+        <label>主题</label>
+        <div class="theme-options">
+          <button class="theme-btn active" data-theme="light">浅色</button>
+          <button class="theme-btn" data-theme="sepia">护眼</button>
+          <button class="theme-btn" data-theme="dark">夜间</button>
+        </div>
+      </div>
+      <div class="setting-row">
+        <label>行间距</label>
+        <div class="line-height-controls">
+          <button class="lh-btn" data-action="decrease">窄</button>
+          <span id="lhLabel">1.9</span>
+          <button class="lh-btn" data-action="increase">宽</button>
+        </div>
+      </div>
+      <button class="close-settings" id="closeSettings">关闭</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
