@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "source": "《中药学七版》教材全稿.txt",
+    "generated_at": "2026-05-09T11:08:48.238366+00:00",
+    "note": "由教材全稿按章、节解析；字段名与旧版 中药学_药材.json 对齐（药性←【性能】）。附药保留在「附药」字段。",
+    "total_herbs": 473
+  },
+  "chapters": [
+    {
+      "chapter_num": 8,
+      "chapter_title": "解  表  药",
+      "dir": "ch08_解表药",
+      "sections": [
+        {
+          "section_num": 1,
+          "section_title": "发散风寒药",
+          "file": "ch08_解表药/sec01_发散风寒药.json",
+          "herb_count": 17
+        },
+        {
+          "section_num": 2,
+          "section_title": "发散风热药",
+          "file": "ch08_解表药/sec02_发散风热药.json",
+          "herb_count": 12
+        }
+      ]
+    },
+    {
+      "chapter_num": 9,
+      "chapter_title": "清 热 药",
+      "dir": "ch09_清热药",
+      "sections": [
+        {
+          "section_num": 1,
+          "section_title": "清热泻火药",
+          "file": "ch09_清热药/sec01_清热泻火药.json",
+          "herb_count": 14
+        },
+        {
+          "section_num": 2,
+          "section_title": "清热燥湿药",
+          "file": "ch09_清热药/sec02_清热燥湿药.json",
+          "herb_count": 10
+        },
+        {
+          "section_num": 3,
+          "section_title": "清热解毒药",
+          "file": "ch09_清热药/sec03_清热解毒药.json",
+          "herb_count": 38
+        },
+        {
+          "section_num": 4,
+          "section_title": "清热凉血药",
+          "file": "ch09_清热药/sec04_清热凉血药.json",
+          "herb_count": 6
+        },
+        {
+          "section_num": 5,
+          "section_title": "清虚热药",
+          "file": "ch09_清热药/sec05_清虚热药.json",
+          "herb_count": 5
+        }
+      ]
+    },
+    {
+      "chapter_num": 10,
+      "chapter_title": "泻 下 药",
+      "dir": "ch10_泻下药",
+      "sections": [
+        {
+          "section_num": 1,
+          "section_title": "攻下药",
+          "file": "ch10_泻下药/sec01_攻下药.json",
+          "herb_count": 4
+        },
+        {
+          "section_num": 2,
+          "section_title": "润下药",
+          "file": "ch10_泻下药/sec02_润下药.json",
+          "herb_count": 3
+        },
+        {
+          "section_num": 2,
+          "section_title": "峻下逐水药",
+          "file": "ch10_泻下药/sec02_峻下逐水药.json",
+          "herb_count": 7
+        }
+      ]
+    },
+    {
+      "chapter_num": 11,
+      "chapter_title": "袪风湿药",
+      "dir": "ch11_袪风湿药",
+      "sections": [
+        {
+          "section_num": 1,
+          "section_title": "袪风寒湿药",
+          "file": "ch11_袪风湿药/sec01_袪风寒湿药.json",
+          "herb_count": 16
+        },
+        {
+          "section_num": 2,
+          "section_title": "袪风湿热药",
+          "file": "ch11_袪风湿药/sec02_袪风湿热药.json",
+          "herb_count": 11
+        },
+        {
+          "section_num": 3,
+          "section_title": "袪风湿强筋骨药",
+          "file": "ch11_袪风湿药/sec03_袪风湿强筋骨药.json",
+          "herb_count": 7
+        }
+      ]
+    },
+    {
+      "chapter_num": 12,
+      "chapter_title": "化湿药",
+      "dir": "ch12_化湿药",
+      "sections": [
+        {
+          "section_num": 0,
+          "section_title": "本章",
+          "file": "ch12_化湿药/sec00_本章.json",
+          "herb_count": 8
+        }
+      ]
+    },
+    {
+      "chapter_num": 13,
+      "chapter_title": "利水渗湿药",
+      "dir": "ch13_利水渗湿药",
+      "sections": [
+        {
+          "section_num": 1,
+          "section_title": "利水消肿药",
+          "file": "ch13_利水渗湿药/sec01_利水消肿药.json",
+          "herb_count": 12
+        },
+        {
+          "section_num": 2,
+          "section_title": "利尿通淋药",
+          "file": "ch13_利水渗湿药/sec02_利尿通淋药.json",
+          "herb_count": 12
+        },
+        {
+          "section_num": 3,
+          "section_title": "利湿退黄药",
+          "file": "ch13_利水渗湿药/sec03_利湿退黄药.json",
+          "herb_count": 7
+        }
+      ]
+    },
+    {
+      "chapter_num": 14,
+      "chapter_title": "温里药",
+      "dir": "ch14_温里药",
+      "sections": [
+        {
+          "section_num": 0,
+          "section_title": "本章",
+          "file": "ch14_温里药/sec00_本章.json",
+          "herb_count": 11
+        }
+      ]
+    },
+    {
+      "chapter_num": 15,
+      "chapter_title": "理 气 药",
+      "dir": "ch15_理气药",
+      "sections": [
+        {
+          "section_num": 0,
+          "section_title": "本章",
+          "file": "ch15_理气药/sec00_本章.json",
+          "herb_count": 23
+        }
+      ]
+    },
+    {
+      "chapter_num": 16,
+      "chapter_title": "消食药",
+      "dir": "ch16_消食药",
+      "sections": [
+        {
+          "section_num": 0,
+          "section_title": "本章",
+          "file": "ch16_消食药/sec00_本章.json",
+          "herb_count": 9
+        }
+      ]
+    },
+    {
+      "chapter_num": 17,
+      "chapter_title": "驱虫药",
+      "dir": "ch17_驱虫药",
+      "sections": [
+        {
+          "section_num": 0,
+          "section_title": "本章",
+          "file": "ch17_驱虫药/sec00_本章.json",
+          "herb_count": 9
+        }
+      ]
+    },
+    {
+      "chapter_num": 18,
+      "chapter_title": "止血药",
+      "dir": "ch18_止血药",
+      "sections": [
+        {
+          "section_num": 1,
+          "section_title": "凉血止血药",
+          "file": "ch18_止血药/sec01_凉血止血药.json",
+          "herb_count": 8
+        },
+        {
+          "section_num": 2,
+          "section_title": "化瘀止血药",
+          "file": "ch18_止血药/sec02_化瘀止血药.json",
+          "herb_count": 5
+        },
+        {
+          "section_num": 3,
+          "section_title": "收敛止血药",
+          "file": "ch18_止血药/sec03_收敛止血药.json",
+          "herb_count": 7
+        },
+        {
+          "section_num": 4,
+          "section_title": "温经止血药",
+          "file": "ch18_止血药/sec04_温经止血药.json",
+          "herb_count": 3
+        }
+      ]
+    },
+    {
+      "chapter_num": 19,
+      "chapter_title": "活血化瘀药",
+      "dir": "ch19_活血化瘀药",
+      "sections": [
+        {
+          "section_num": 1,
+          "section_title": "活血止痛药",
+          "file": "ch19_活血化瘀药/sec01_活血止痛药.json",
+          "herb_count": 9
+        },
+        {
+          "section_num": 2,
+          "section_title": "活血调经药",
+          "file": "ch19_活血化瘀药/sec02_活血调经药.json",
+          "herb_count": 10
+        },
+        {
+          "section_num": 3,
+          "section_title": "活血疗伤药",
+          "file": "ch19_活血化瘀药/sec03_活血疗伤药.json",
+          "herb_count": 8
+        },
+        {
+          "section_num": 4,
+          "section_title": "破血消癥药",
+          "file": "ch19_活血化瘀药/sec04_破血消癥药.json",
+          "herb_count": 6
+        }
+      ]
+    },
+    {
+      "chapter_num": 20,
+      "chapter_title": "化痰止咳平喘药",
+      "dir": "ch20_化痰止咳平喘药",
+      "sections": [
+        {
+          "section_num": 1,
+          "section_title": "温化寒痰药",
+          "file": "ch20_化痰止咳平喘药/sec01_温化寒痰药.json",
+          "herb_count": 8
+        },
+        {
+          "section_num": 2,
+          "section_title": "清化热痰药",
+          "file": "ch20_化痰止咳平喘药/sec02_清化热痰药.json",
+          "herb_count": 16
+        },
+        {
+          "section_num": 3,
+          "section_title": "止咳平喘药",
+          "file": "ch20_化痰止咳平喘药/sec03_止咳平喘药.json",
+          "herb_count": 16
+        }
+      ]
+    },
+    {
+      "chapter_num": 21,
+      "chapter_title": "安 神 药",
+      "dir": "ch21_安神药",
+      "sections": [
+        {
+          "section_num": 1,
+          "section_title": "重镇安神药",
+          "file": "ch21_安神药/sec01_重镇安神药.json",
+          "herb_count": 4
+        },
+        {
+          "section_num": 2,
+          "section_title": "养心安神药",
+          "file": "ch21_安神药/sec02_养心安神药.json",
+          "herb_count": 7
+        }
+      ]
+    },
+    {
+      "chapter_num": 22,
+      "chapter_title": "平肝息风药",
+      "dir": "ch22_平肝息风药",
+      "sections": [
+        {
+          "section_num": 1,
+          "section_title": "平抑肝阳药",
+          "file": "ch22_平肝息风药/sec01_平抑肝阳药.json",
+          "herb_count": 8
+        },
+        {
+          "section_num": 2,
+          "section_title": "息风止痉药",
+          "file": "ch22_平肝息风药/sec02_息风止痉药.json",
+          "herb_count": 9
+        }
+      ]
+    },
+    {
+      "chapter_num": 23,
+      "chapter_title": "开 窍 药",
+      "dir": "ch23_开窍药",
+      "sections": [
+        {
+          "section_num": 0,
+          "section_title": "本章",
+          "file": "ch23_开窍药/sec00_本章.json",
+          "herb_count": 4
+        }
+      ]
+    },
+    {
+      "chapter_num": 24,
+      "chapter_title": "补虚药",
+      "dir": "ch24_补虚药",
+      "sections": [
+        {
+          "section_num": 1,
+          "section_title": "补气药",
+          "file": "ch24_补虚药/sec01_补气药.json",
+          "herb_count": 16
+        },
+        {
+          "section_num": 2,
+          "section_title": "补 阳 药",
+          "file": "ch24_补虚药/sec02_补阳药.json",
+          "herb_count": 24
+        },
+        {
+          "section_num": 3,
+          "section_title": "补 血 药",
+          "file": "ch24_补虚药/sec03_补血药.json",
+          "herb_count": 7
+        },
+        {
+          "section_num": 4,
+          "section_title": "补阴药",
+          "file": "ch24_补虚药/sec04_补阴药.json",
+          "herb_count": 16
+        }
+      ]
+    },
+    {
+      "chapter_num": 25,
+      "chapter_title": "收涩药",
+      "dir": "ch25_收涩药",
+      "sections": [
+        {
+          "section_num": 1,
+          "section_title": "固表止汗药",
+          "file": "ch25_收涩药/sec01_固表止汗药.json",
+          "herb_count": 3
+        },
+        {
+          "section_num": 2,
+          "section_title": "敛肺涩肠药",
+          "file": "ch25_收涩药/sec02_敛肺涩肠药.json",
+          "herb_count": 9
+        },
+        {
+          "section_num": 3,
+          "section_title": "固精缩尿止带药",
+          "file": "ch25_收涩药/sec03_固精缩尿止带药.json",
+          "herb_count": 10
+        }
+      ]
+    },
+    {
+      "chapter_num": 26,
+      "chapter_title": "涌吐药",
+      "dir": "ch26_涌吐药",
+      "sections": [
+        {
+          "section_num": 0,
+          "section_title": "本章",
+          "file": "ch26_涌吐药/sec00_本章.json",
+          "herb_count": 3
+        }
+      ]
+    },
+    {
+      "chapter_num": 27,
+      "chapter_title": "攻毒杀虫止痒药",
+      "dir": "ch27_攻毒杀虫止痒药",
+      "sections": [
+        {
+          "section_num": 0,
+          "section_title": "本章",
+          "file": "ch27_攻毒杀虫止痒药/sec00_本章.json",
+          "herb_count": 10
+        }
+      ]
+    },
+    {
+      "chapter_num": 28,
+      "chapter_title": "拔毒化腐生肌药",
+      "dir": "ch28_拔毒化腐生肌药",
+      "sections": [
+        {
+          "section_num": 0,
+          "section_title": "本章",
+          "file": "ch28_拔毒化腐生肌药/sec00_本章.json",
+          "herb_count": 6
+        }
+      ]
+    }
+  ]
+}
