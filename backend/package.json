@@ -1,0 +1,13 @@
+{
+  "name": "qihuang-backend",
+  "version": "2.0.0",
+  "description": "岐黄问道录 — 后端 API（手机号登录 / 数据持久化 / 排行榜）",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "express": "^4.18.0"
+  }
+}

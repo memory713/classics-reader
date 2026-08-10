@@ -14,22 +14,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const app = express()
 const PORT = process.env.PORT || 3000
 
-// CORS — 允许 GitHub Pages 前端访问
-app.use((req, res, next) => {
-  const allowedOrigins = [
-    'https://memory713.github.io',
-    'https://memory713.github.io/classics-reader'
-  ]
-  const origin = req.headers.origin
-  if (origin && allowedOrigins.includes(origin)) {
-    res.setHeader('Access-Control-Allow-Origin', origin)
-  }
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type')
-  if (req.method === 'OPTIONS') return res.sendStatus(200)
-  next()
-})
-
 app.use(express.json({ limit: '10mb' }))
 
 // ========================================

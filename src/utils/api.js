@@ -3,7 +3,9 @@
  * 用户以手机号唯一标识
  */
 
-const API_BASE = '/api'
+// GitHub Pages: https://memory713.github.io/classics-reader/
+// Railway Backend: https://classics-reader.railway.app
+const API_BASE = import.meta.env.VITE_API_URL || 'https://classics-reader.railway.app/api'
 
 // 登录/注册
 export async function login(phone) {
