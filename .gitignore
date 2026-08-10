@@ -2,11 +2,12 @@
 node_modules/
 backend/node_modules/
 
-# Build output
-dist/
+# Build output for local development - explicitly UN-ignored for GitHub Pages deployment
+!dist/
 
-# Environment (Railsy uses UI to set)
-.env
+# Environment
+.env.local
+.env.*.local
 
 # OS files
 .DS_Store
@@ -15,3 +16,6 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Logs
+*.log
